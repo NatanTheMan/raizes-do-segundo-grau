@@ -11,7 +11,7 @@
 <body>
   <h1>Calculadora de Raízes do 2º Grau</h1>
   <div>
-    <p><span id="a">a</span>x² + <span id="b">b</span>x + <span id="c">c</span> = 0</p>
+    <p id="formula"><span id="a">a</span>x² + <span id="b">b</span>x + <span id="c">c</span> = 0</p>
   </div>
   <form>
     <label for="value-a">Valor de A</label><br>
@@ -20,7 +20,7 @@
     <input type="number" id="value-b" placeholder="0"><br>
     <label for="value-c">Valor de C</label><br>
     <input type="number" id="value-c" placeholder="0"><br>
-    <button type="submit">Calcular</button>
+    <button type="submit" id="btn">Calcular</button>
 
     <div>
       <h3>Solução</h3>
@@ -30,6 +30,8 @@
       </ul>
     </div>
   </form>
+
+  <script src="main.js"></script>
 </body>
 
 </html>
