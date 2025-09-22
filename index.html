@@ -9,27 +9,37 @@
 </head>
 
 <body>
-  <h1>Calculadora de Raízes do 2º Grau</h1>
-  <div>
-    <p id="formula"><span id="a">a</span>x² <span id="b">+b</span>x <span id="c">+c</span> = 0</p>
-  </div>
-  <form>
-    <label for="value-a">Valor de A</label><br>
-    <input type="number" id="value-a" placeholder="0"><br>
-    <label for="value-b">Valor de B</label><br>
-    <input type="number" id="value-b" placeholder="0"><br>
-    <label for="value-c">Valor de C</label><br>
-    <input type="number" id="value-c" placeholder="0"><br>
-    <button type="submit" id="btn">Calcular</button>
+  <main>
+    <h1>Calculadora de Raízes do 2º Grau</h1>
+
+    <div>
+      <p id="formula"><span id="a">a</span>x² <span id="b">+b</span>x <span id="c">+c</span> = 0</p>
+    </div>
+
+    <form>
+      <div>
+        <label for="value-a">Valor de A</label><br>
+        <input type="number" id="value-a" placeholder="0"><br>
+      </div>
+      <div>
+        <label for="value-b">Valor de B</label><br>
+        <input type="number" id="value-b" placeholder="0"><br>
+      </div>
+      <div>
+        <label for="value-c">Valor de C</label><br>
+        <input type="number" id="value-c" placeholder="0"><br>
+      </div>
+      <button type="submit" id="btn">Calcular</button>
+    </form>
 
     <div id="solution-container">
-      <h3>Solução</h3>
+      <h2>Solução</h2>
       <ul>
         <li>x': <span id="x-1"></span></li>
         <li>x": <span id="x-2"></span></li>
       </ul>
     </div>
-  </form>
+  </main>
 
   <script src="main.js"></script>
 </body>

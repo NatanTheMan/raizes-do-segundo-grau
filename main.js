@@ -39,7 +39,7 @@ function calculate(e) {
   const delta = B * B - 4 * A * C
   const result = bhaskara(A, B, delta)
 
-  document.getElementById('solution-container').style.display = 'block'
+  document.getElementById('solution-container').style.visibility = 'visible'
 
   x1.innerHTML = result.x1
   x2.innerHTML = result.x2
