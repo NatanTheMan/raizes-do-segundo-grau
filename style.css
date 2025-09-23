@@ -1,5 +1,5 @@
 body {
-  background-color: #002;
+  background: #060606;
   color: #fff;
   font-family: 'Arial';
   width: 100vw;
@@ -50,8 +50,8 @@ input {
   border-radius: 0px;
   border-style: none;
   padding-left: 8px;
-  background-color: #a4a4f4;
-  color: #0c0c37;
+  background-color: #4B4C51;
+  color: #dedee8;
 }
 
 input::-webkit-outer-spin-button,
@@ -71,6 +71,8 @@ button {
   font-size: 25px;
   font-weight: bolder;
   padding: 10px 40px;
+  background-color: #5d1fb7;
+  color: #DEDEE8;
 }
 
 #solution-container {
